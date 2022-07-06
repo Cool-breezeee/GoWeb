@@ -2,7 +2,6 @@
 A light version of the goweb framework
 
 | gee        | 简易的goweb框架          |
-| ---------- | ------------------------ |
 | —context  | 框架的上下文             |
 | —router   | 框架的路由，包括分组控制 |
 | —trie     | 前缀树路由               |
