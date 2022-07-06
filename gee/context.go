@@ -76,6 +76,7 @@ func (c *Context) String(code int, format string, values ...interface{}) {
 	c.Writer.Write([]byte(fmt.Sprintf(format, values...)))
 }
 
+// JSON json
 func (c *Context) JSON(code int, obj interface{}) {
 	c.SetHeader("Content-Type", "application/json")
 	c.Status(code)
